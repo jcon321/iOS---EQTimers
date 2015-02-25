@@ -105,6 +105,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "Timers"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
