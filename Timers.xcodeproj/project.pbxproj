@@ -13,6 +13,16 @@
 		174C9C3B1A92DC7100779B0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174C9C3A1A92DC7100779B0E /* Images.xcassets */; };
 		174C9C3E1A92DC7100779B0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174C9C3C1A92DC7100779B0E /* LaunchScreen.xib */; };
 		174C9C4A1A92DC7100779B0E /* TimersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C9C491A92DC7100779B0E /* TimersTests.swift */; };
+		174C9C581A9672DE00779B0E /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C9C571A9672DE00779B0E /* Timer.swift */; };
+		174C9C5A1A967A3600779B0E /* NewTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C9C591A967A3600779B0E /* NewTimerViewController.swift */; };
+		174C9C5C1A9B7AE400779B0E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 174C9C5B1A9B7AE400779B0E /* libsqlite3.dylib */; };
+		174C9C691A9B7B7F00779B0E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C9C601A9B7B7F00779B0E /* FMDatabase.m */; };
+		174C9C6A1A9B7B7F00779B0E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C9C621A9B7B7F00779B0E /* FMResultSet.m */; };
+		174C9C6B1A9B7B7F00779B0E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C9C641A9B7B7F00779B0E /* FMDatabaseQueue.m */; };
+		174C9C6C1A9B7B7F00779B0E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C9C661A9B7B7F00779B0E /* FMDatabaseAdditions.m */; };
+		174C9C6D1A9B7B7F00779B0E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C9C681A9B7B7F00779B0E /* FMDatabasePool.m */; };
+		174C9C6F1A9BA4AD00779B0E /* PresetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C9C6E1A9BA4AD00779B0E /* PresetsViewController.swift */; };
+		174C9C711A9D1A9B00779B0E /* EQTimersLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 174C9C701A9D1A9B00779B0E /* EQTimersLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,23 @@
 		174C9C431A92DC7100779B0E /* TimersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174C9C481A92DC7100779B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		174C9C491A92DC7100779B0E /* TimersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersTests.swift; sourceTree = "<group>"; };
+		174C9C571A9672DE00779B0E /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		174C9C591A967A3600779B0E /* NewTimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTimerViewController.swift; sourceTree = "<group>"; };
+		174C9C5B1A9B7AE400779B0E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		174C9C5D1A9B7B7E00779B0E /* Timers-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timers-Bridging-Header.h"; sourceTree = "<group>"; };
+		174C9C5E1A9B7B7F00779B0E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = ../../fmdb/src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		174C9C5F1A9B7B7F00779B0E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../../fmdb/src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		174C9C601A9B7B7F00779B0E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../../fmdb/src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		174C9C611A9B7B7F00779B0E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = ../../fmdb/src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		174C9C621A9B7B7F00779B0E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../../fmdb/src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		174C9C631A9B7B7F00779B0E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = ../../fmdb/src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		174C9C641A9B7B7F00779B0E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../../fmdb/src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		174C9C651A9B7B7F00779B0E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = ../../fmdb/src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		174C9C661A9B7B7F00779B0E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../../fmdb/src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		174C9C671A9B7B7F00779B0E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = ../../fmdb/src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		174C9C681A9B7B7F00779B0E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../../fmdb/src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		174C9C6E1A9BA4AD00779B0E /* PresetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetsViewController.swift; sourceTree = "<group>"; };
+		174C9C701A9D1A9B00779B0E /* EQTimersLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EQTimersLogo.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174C9C5C1A9B7AE400779B0E /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +87,7 @@
 		174C9C251A92DC7100779B0E = {
 			isa = PBXGroup;
 			children = (
+				174C9C5B1A9B7AE400779B0E /* libsqlite3.dylib */,
 				174C9C301A92DC7100779B0E /* Timers */,
 				174C9C461A92DC7100779B0E /* TimersTests */,
 				174C9C2F1A92DC7100779B0E /* Products */,
@@ -77,11 +106,11 @@
 		174C9C301A92DC7100779B0E /* Timers */ = {
 			isa = PBXGroup;
 			children = (
-				174C9C331A92DC7100779B0E /* AppDelegate.swift */,
 				174C9C351A92DC7100779B0E /* ViewController.swift */,
+				174C9C6E1A9BA4AD00779B0E /* PresetsViewController.swift */,
 				174C9C371A92DC7100779B0E /* Main.storyboard */,
-				174C9C3A1A92DC7100779B0E /* Images.xcassets */,
-				174C9C3C1A92DC7100779B0E /* LaunchScreen.xib */,
+				174C9C591A967A3600779B0E /* NewTimerViewController.swift */,
+				174C9C571A9672DE00779B0E /* Timer.swift */,
 				174C9C311A92DC7100779B0E /* Supporting Files */,
 			);
 			path = Timers;
@@ -90,7 +119,23 @@
 		174C9C311A92DC7100779B0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				174C9C5E1A9B7B7F00779B0E /* FMDB.h */,
+				174C9C5F1A9B7B7F00779B0E /* FMDatabase.h */,
+				174C9C601A9B7B7F00779B0E /* FMDatabase.m */,
+				174C9C611A9B7B7F00779B0E /* FMResultSet.h */,
+				174C9C621A9B7B7F00779B0E /* FMResultSet.m */,
+				174C9C631A9B7B7F00779B0E /* FMDatabaseQueue.h */,
+				174C9C641A9B7B7F00779B0E /* FMDatabaseQueue.m */,
+				174C9C651A9B7B7F00779B0E /* FMDatabaseAdditions.h */,
+				174C9C701A9D1A9B00779B0E /* EQTimersLogo.png */,
+				174C9C661A9B7B7F00779B0E /* FMDatabaseAdditions.m */,
+				174C9C671A9B7B7F00779B0E /* FMDatabasePool.h */,
+				174C9C681A9B7B7F00779B0E /* FMDatabasePool.m */,
+				174C9C331A92DC7100779B0E /* AppDelegate.swift */,
+				174C9C3A1A92DC7100779B0E /* Images.xcassets */,
+				174C9C3C1A92DC7100779B0E /* LaunchScreen.xib */,
 				174C9C321A92DC7100779B0E /* Info.plist */,
+				174C9C5D1A9B7B7E00779B0E /* Timers-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +206,7 @@
 				TargetAttributes = {
 					174C9C2D1A92DC7100779B0E = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = X6S5KCK4N7;
 					};
 					174C9C421A92DC7100779B0E = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -194,6 +240,7 @@
 			files = (
 				174C9C391A92DC7100779B0E /* Main.storyboard in Resources */,
 				174C9C3E1A92DC7100779B0E /* LaunchScreen.xib in Resources */,
+				174C9C711A9D1A9B00779B0E /* EQTimersLogo.png in Resources */,
 				174C9C3B1A92DC7100779B0E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +259,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174C9C6A1A9B7B7F00779B0E /* FMResultSet.m in Sources */,
+				174C9C581A9672DE00779B0E /* Timer.swift in Sources */,
+				174C9C5A1A967A3600779B0E /* NewTimerViewController.swift in Sources */,
+				174C9C6B1A9B7B7F00779B0E /* FMDatabaseQueue.m in Sources */,
+				174C9C6D1A9B7B7F00779B0E /* FMDatabasePool.m in Sources */,
+				174C9C6F1A9BA4AD00779B0E /* PresetsViewController.swift in Sources */,
 				174C9C361A92DC7100779B0E /* ViewController.swift in Sources */,
+				174C9C691A9B7B7F00779B0E /* FMDatabase.m in Sources */,
 				174C9C341A92DC7100779B0E /* AppDelegate.swift in Sources */,
+				174C9C6C1A9B7B7F00779B0E /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +393,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Timers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Timers/Timers-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +409,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Timers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Timers/Timers-Bridging-Header.h";
 			};
 			name = Release;
 		};
